@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.items {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE/Edge */
+    user-select: none;
+    margin: 0 auto;
+}
+
+header {
+    min-height: 100vh;
+}
+
+#img-header {
+    background: url("http://535photo.com/wp-content/uploads/2013/03/IMG_6620small.jpg") no-repeat center center scroll;
+    min-height: 100vh;
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    -webkit-filter: grayscale(100%);
+    background-attachment: fixed;
+}
+
+.headline {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.headline h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 12em;
+    font-family: "Rock Salt", sans-serif;
+    color: #fff;
+}
+
+section {
+    padding: 80px 0;
+}
+
+#about {
+    text-align: center;
+}
+
+#about p {
+    display: inline-block;
+}
+
+.items img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+figure {
+    height: 314px;
+    width: 236px;
+    margin: 0 auto;
+    -webkit-filter: grayscale(100%);
+    transition: all .5s linear;
+    position: relative;
+    overflow: hidden;
+}
+
+figure:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+figcaption {
+    position: absolute;
+    bottom: 50px;
+    left: -100%;
+    background: black;
+    color: white;
+    padding: 2px 8px;
+    font-size: 11px;
+    transition: all .5s ease-in-out;
+}
+
+figure:hover figcaption {
+    left: 0%;
+}
+
+.pull-right {
+    float: right;
+    display: inline-block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.large-window {
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    background: url(https://static.pexels.com/photos/21512/pexels-photo.jpg) no-repeat top center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    background-attachment: fixed;
+}
+
+.large-window h3 {
+    text-align: center;
+    padding: 15% 0;
+}
+
+@media (max-width: 1920px) {
+    .headline h1 {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ghost-button {
+        margin: 20px;
+    }
+    .headline img {
+        margin-top: 30px;
+    }
+    .headline h1 {
+        margin-top: 20%;
+        font-size: 140px;
+    }
+    .headline h2 {
+        font-size: 63px;
+    }
+}
+
+@media (max-width: 991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+    .headline h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .featurette-divider {
+        margin: 40px 0;
+    }
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+    .headline h2 {
+        font-size: 32px;
+    }
+    .featurette-divider {
+        margin: 30px 0;
+    }
+    #sub-header h3 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+    .headline h1 {
+        font-size: 60px;
+    }
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+
+nav{
+    position: fixed;
+    top:0;
+    z-index: 999;
+    background-color: #282830;
+    width: 100%;
+    padding:10px 0;
+}
+nav h1{
+    padding: 0;
+    margin: 0;
+    font-family: "Rock Salt", sans-serif;
+    color:white;
+}
+
+
+/*# sourceMappingURL=style.css.map */
